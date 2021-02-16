@@ -1,0 +1,32 @@
+p {
+ font-weight: bolder;
+  font-size: 27px;
+  text-align: center;
+}
+.container {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: 100px 100px 100px;
+  justify-content: center;
+
+}
+.item {
+  background: tomato;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3em;
+  color: blue;
+}
+.title {
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 40px;
+  color: blue;
+}
+ #playText {
+  color: blue;
+  }
+
